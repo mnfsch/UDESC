@@ -1,0 +1,24 @@
+1) Escreva um programa que aloque um vetor v do tipo float cujo tamanho é definido pelo
+usuário. A seguir, calcule a média dos valores e aloque um novo vetor contendo os
+valores maiores ou iguais à média calculada. O novo vetor deve ser alocado com a
+quantidade exata de valores. Ao final, mostre na tela a média e os valores contidos no
+novo vetor (maiores ou iguais à média). Ao final, não se esqueça de desalocar os vetores.
+
+2) Faça um programa que leia uma certa quantidade de inteiros que são armazenados num
+vetor V. A quantidade deve ser definida pelo usuário, e o programa aloca espaço para V.
+O programa deve armazenar os valores positivos em um vetor P e o valores negativos no
+vetor N. Como as quantidades de valores positivos e negativos são desconhecidas, o
+espaço para P e N deve ser alocado dinamicamente. P e N não devem conter zeros. Ao
+final, imprima os três vetores.
+
+3) Defina uma struct para armazenar os dados de um aluno: nome, curso, fase e média final.
+Faça um programa que leia os dados de alunos e os armazene em um vetor de struct
+Aluno. O vetor pode ter um tamanho pré-definido, mas o número de alunos a serem
+adicionados deve ser informado no início (por exemplo, se o vetor tiver 10 posições, o
+usuário pode inserir de 1 a 10 alunos, conforme a necessidade). Em seguida, o programa
+deve percorrer o vetor e apresentar o nome dos alunos que estão em exame (média < 7).
+
+4) Modifique o vetor do programa do exercício anterior para que os seus elementos não
+sejam do tipo struct Aluno, mas sim ponteiros para struct Aluno. Inicialmente, o vetor
+deverá ter todos os seus elementos apontanto para NULL, sendo preciso fazer alocação
+dinâmica para cada novo aluno a ser adicionado.
